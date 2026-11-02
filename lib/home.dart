@@ -68,7 +68,10 @@ class HomePage extends StatelessWidget {
                     },
                     child: const Text(
                       'Our Menu',
-                      style: TextStyle(fontSize: 16.0, color: Colors.deepOrange),
+                      style: TextStyle(
+                        fontSize: 16.0,
+                        color: Colors.deepOrange,
+                      ),
                     ),
                   ),
                   const SizedBox(width: 10),
@@ -82,7 +85,10 @@ class HomePage extends StatelessWidget {
                     },
                     child: const Text(
                       'About Us',
-                      style: TextStyle(fontSize: 16.0, color: Colors.deepOrange),
+                      style: TextStyle(
+                        fontSize: 16.0,
+                        color: Colors.deepOrange,
+                      ),
                     ),
                   ),
                   const SizedBox(width: 10),
@@ -96,7 +102,10 @@ class HomePage extends StatelessWidget {
                     },
                     child: const Text(
                       'Contact Us',
-                      style: TextStyle(fontSize: 16.0, color: Colors.deepOrange),
+                      style: TextStyle(
+                        fontSize: 16.0,
+                        color: Colors.deepOrange,
+                      ),
                     ),
                   ),
                 ],
@@ -120,7 +129,10 @@ class HomePage extends StatelessWidget {
             // Styled Pizza Assistant Message Bubble
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 24.0),
-              padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 14.0),
+              padding: const EdgeInsets.symmetric(
+                horizontal: 20.0,
+                vertical: 14.0,
+              ),
               decoration: BoxDecoration(
                 color: Colors.orange.shade50,
                 borderRadius: BorderRadius.circular(14.0),
