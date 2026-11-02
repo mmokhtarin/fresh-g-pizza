@@ -6,10 +6,7 @@ class ContactPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Contact Us'),
-        centerTitle: true,
-      ),
+      appBar: AppBar(title: const Text('Contact Us'), centerTitle: true),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(24.0),
@@ -25,10 +22,7 @@ class ContactPage extends StatelessWidget {
               const SizedBox(height: 16),
               const Text(
                 'WOW Pizza',
-                style: TextStyle(
-                  fontSize: 26,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 8),
               const Text(
@@ -44,7 +38,9 @@ class ContactPage extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(Icons.location_on, color: Colors.deepOrange),
                   title: Text('Address'),
-                  subtitle: Text('Vivacity Mall, Ground Floor, 123 Pizza Street, Kuching, Sarawak'),
+                  subtitle: Text(
+                    'Vivacity Mall, Ground Floor, 123 Pizza Street, Kuching, Sarawak',
+                  ),
                 ),
               ),
               const SizedBox(height: 12),
