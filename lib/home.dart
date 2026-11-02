@@ -10,9 +10,7 @@ class HomePage extends StatelessWidget {
         title: const Text('Fresh G Pizza'),
         backgroundColor: Colors.deepOrange,
       ),
-      body: const Center(
-        child: Text('Home Page Placeholder'),
-      ),
+      body: const Center(child: Text('Home Page Placeholder')),
     );
   }
 }

@@ -6,13 +6,8 @@ class XPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('X'),
-        backgroundColor: Colors.black,
-      ),
-      body: const Center(
-        child: Text('X Page Placeholder'),
-      ),
+      appBar: AppBar(title: const Text('X'), backgroundColor: Colors.black),
+      body: const Center(child: Text('X Page Placeholder')),
     );
   }
 }
