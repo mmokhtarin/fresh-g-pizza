@@ -3,7 +3,7 @@ import 'home.dart';
 import 'menu.dart';
 import 'about.dart';
 import 'contact.dart';
-import 'twitter.dart';
+import 'x_page.dart';
 import 'facebook.dart';
 
 void main() {
@@ -28,7 +28,7 @@ class FreshGPizzaApp extends StatelessWidget {
         '/menu': (context) => const MenuPage(),
         '/about': (context) => const AboutPage(),
         '/contact': (context) => const ContactPage(),
-        '/twitter': (context) => const TwitterPage(),
+        '/x': (context) => const XPage(),
         '/facebook': (context) => const FacebookPage(),
       },
     );
