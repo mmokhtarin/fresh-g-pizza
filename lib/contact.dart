@@ -21,7 +21,7 @@ class ContactPage extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               const Text(
-                'WOW Pizza',
+                'Fresh G Pizza',
                 style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 8),
