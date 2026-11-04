@@ -31,7 +31,10 @@ class MenuPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Our Menu', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: const Text(
+          'Our Menu',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
         backgroundColor: Colors.deepOrange,
         foregroundColor: Colors.white,
       ),
@@ -43,7 +46,9 @@ class MenuPage extends StatelessWidget {
           return Card(
             elevation: 3,
             margin: const EdgeInsets.symmetric(vertical: 8.0),
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
             child: ListTile(
               contentPadding: const EdgeInsets.all(12.0),
               leading: ClipRRect(
@@ -57,13 +62,24 @@ class MenuPage extends StatelessWidget {
               ),
               title: Text(
                 item['name']!,
-                style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                style: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
               subtitle: Text(
                 item['price']!,
-                style: const TextStyle(fontSize: 16, color: Colors.deepOrange, fontWeight: FontWeight.w600),
+                style: const TextStyle(
+                  fontSize: 16,
+                  color: Colors.deepOrange,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
-              trailing: const Icon(Icons.arrow_forward_ios, size: 16, color: Colors.grey),
+              trailing: const Icon(
+                Icons.arrow_forward_ios,
+                size: 16,
+                color: Colors.grey,
+              ),
               onTap: () {
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(content: Text('Selected ${item['name']}')),
