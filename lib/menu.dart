@@ -82,7 +82,7 @@ class MenuPage extends StatelessWidget {
               ),
               onTap: () {
                 ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(content: Text('Selected ${item['name']}')) ,
+                  SnackBar(content: Text('Selected ${item['name']}')),
                 );
               },
             ),
