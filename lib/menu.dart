@@ -9,22 +9,22 @@ class MenuPage extends StatelessWidget {
     final menuItems = [
       {
         'name': 'Cheese Pizza',
-        'price': '\RM15.99',
+        'price': 'RM15.99',
         'image': 'assets/images/chpizza.jpg',
       },
       {
         'name': 'Pepperoni Pizza',
-        'price': '\RM18.99',
+        'price': 'RM18.99',
         'image': 'assets/images/peppizza.jpg',
       },
       {
         'name': 'BBQ Chicken Pizza',
-        'price': '\RM16.99',
+        'price': 'RM16.99',
         'image': 'assets/images/bbqpizza.jpg',
       },
       {
         'name': 'Veggie Pizza',
-        'price': '\RM19.99',
+        'price': 'RM19.99',
         'image': 'assets/images/vegepizza.jpg',
       },
     ];
